@@ -33,6 +33,9 @@ const App = () => {
       {error ? <p>{error}</p> : <WeatherCard data={weatherData} />}
     </div>
   );
+
 };
+
+
 
 export default App;
